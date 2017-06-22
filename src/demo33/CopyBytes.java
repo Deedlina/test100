@@ -54,7 +54,8 @@ public class CopyBytes {
             
             
         } catch (Exception e) {
-            System.out.println(e);
+            //文件操作，捕获IO异常。
+            System.err.println(e);
         }
     }
 }
